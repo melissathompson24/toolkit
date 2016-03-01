@@ -1,0 +1,442 @@
+/*Header*/
+
+header {
+	background-color: #1f295c;
+}
+
+ul.breadcrumb_custom {
+	margin: 11em 0 0 0;
+	padding: 1.5em 1em 1em 1em;
+	background-color: #1f295c;
+	border-top: .5px solid #fff;
+	z-index: 1;	
+	color: #ddd;
+	font-size: .8em;
+}
+
+.breadcrumb_custom a{
+	color: #ddd;
+}
+
+.breadcrumb_custom a:hover{
+	color: #acce89;
+}
+
+/*Nav*/
+.navbar {
+	padding: 3em 0;
+	background: #1f295c;
+	font-size: .9em;
+	z-index: 2;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #fff;
+	background-color: #acce89;
+}
+
+
+.navbar-default .navbar-nav>.active>a {
+	background-color: #1f295c;
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+	color: #fff;
+	background-color: #acce89;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+	background-color: #acce89;
+	color: #fff;
+}
+
+.navbar-brand {
+	margin-top: -2em;
+}
+
+.search {
+	width: 2em;
+	margin: -2em 1em;
+}
+
+.glyphicon.glyphicon-search {
+	padding: .5em;
+	color: #fff;
+}
+
+.glyphicon.glyphicon-search:hover {
+	padding: .5em;
+	color: #acce89;
+}
+
+
+@media (max-width: 775px) {
+		.navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+		color: #fff;
+	}
+
+	.navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+		color: #fff;
+		background: #acce89;
+	}
+}
+
+
+@media (max-width: 400px) {
+	button.navbar-toggle.collapsed {
+		margin-top: 2em;
+	}
+}
+
+
+
+
+
+/*Footer*/
+footer.footer {
+	padding: 1.5em 0 1em 0;
+	background: #1f295c;
+}
+
+footer .text-muted {
+	color: #dddddd;
+	margin-top: -.5em;
+}
+
+footer a {
+	color: #fff;
+}
+
+footer a:hover {
+	color: #acce89;
+}
+
+
+/*Main body*/
+
+.main {
+	margin: 11em 0 0 0;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.padding_1em {
+	padding: 1em;
+}
+
+.margin-top_2em {
+	margin-top: 2em;
+}
+
+.h3_smaller {
+	font-size: 1.25em;
+}
+
+.bg-primary {
+	background: #1f295c;
+	padding: .5em;
+}
+
+.bg-success {
+	background: #91bf6e;
+	padding: .5em;
+}
+
+.darkBlue_background {
+	background: #1f295c;
+	color: #fff; 
+	padding: 1em 0 2em 0;
+}
+
+.darkBlue_background a {
+	color: #AAD048;
+	font-weight: bold;
+}
+
+.darkBlue_background a:visited {
+	color: #f906e7;
+	font-weight: bold;
+}
+
+.darkBlue_background a:hover {
+	color: #88d3df;
+	font-weight: bold;
+}
+
+a.non-link {
+	color: #fff;
+}
+
+a:hover.non-link {
+	color: #fff;
+}
+
+.lightBlue_background {
+	background: #1b88bf;
+	color: #fff; 
+	padding: 1em 0 2em 0;
+}
+
+.lightBlue_background a {
+	color: #d7df23;
+	font-weight: bold;
+}
+
+.lightBlue_background a:hover {
+	color: #212a5c;
+	font-weight: bold;
+}
+
+.lightBlue_background a:visited {
+	color: #f9afdd;
+	font-weight: bold;
+}
+
+.green_background {
+	background: #91bf6e;
+	color: #fff; 
+	padding: 1em 0 2em 0;
+}
+
+.green_background a {
+	color: #1f295c;
+	font-weight: bold;
+}
+
+.green_background a:visited {
+	color: #913494;
+	font-weight: bold;
+}
+
+.green_background a:hover {
+	color: #1b88bf;
+	font-weight: bold;
+}
+
+.white_background {
+	background: #fff;
+	color: #1170aa; 
+	margin-top: 1em;
+}
+
+.white_background a {
+	color: #639b41;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.white_background a:visited {
+	color: #913494;
+	font-weight: bold;
+}
+
+.white_background a:hover {
+	color: #1f295c ;
+	font-weight: bold;
+}
+
+.blue_line {
+	border-bottom: 3px solid #1170aa;
+	margin: 3em -3em;
+}
+
+.green_line {
+	border-bottom: 2px solid #91bf6e;
+	margin: 3em 0;
+}
+
+.greenCircle {
+	display: inline-block;
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+
+	border: 1px solid #91bf6e;
+	width: 4em;
+	height: 4em;
+	line-height: 4em;
+	text-align: center;
+	vertical-align: middle;
+
+
+	background: #91bf6e;
+
+	font-size: 4em;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+
+.greenCircle:hover {
+	display: inline-block;
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+
+	border: 1px solid #fff;
+	width: 4em;
+	height: 4em;
+	line-height: 4em;
+	text-align: center;
+	vertical-align: middle;
+
+
+	background: #1f295c;
+}
+
+.greenCircle_Next {
+	display: inline-block;
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+
+	border: 1px solid #91bf6e;
+	width: 5em;
+	height: 5em;
+	line-height: 5em;
+	text-align: center;
+	vertical-align: middle;
+
+
+	background: #91bf6e;
+
+	font-size: 1.5em;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+
+.greenCircle_Next:hover {
+	display: inline-block;
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+
+	border: 1px solid #fff;
+	width: 5em;
+	height: 5em;
+	line-height: 5em;
+	text-align: center;
+	vertical-align: middle;
+
+
+	background: #1f295c;
+}
+
+.whiteCircle {
+	display: inline-block;
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+
+	border: 3px solid #fff;
+	width: 2.25em;
+	height: 2.25em;
+	line-height: 2.25em;
+	text-align: center;
+	vertical-align: middle;
+
+	font-size: 4em;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+
+.whiteCircleActivity {
+	display: inline-block;
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+
+	border: 3.25px solid #fff;
+	width: 3.25em;
+	height: 3.25em;
+	line-height: 3em;
+	text-align: center;
+	vertical-align: middle;
+
+	font-size: 3em;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+
+.blueCircle {
+	display: inline-block;
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+
+	border: 3px solid #1170aa;
+	width: 2.25em;
+	height: 2.25em;
+	line-height: 2.25em;
+	text-align: center;
+	vertical-align: middle;
+
+	font-size: 4em;
+	text-align: center;
+	font-weight: bold;
+	color: #1170aa;
+}
+
+.btn.btn-primary {
+	border-radius: 0%;
+}
+
+.btn.btn-primary:hover {
+	border-radius: 0%;
+}
+
+.btn.btn-success {
+	border-radius: 0%;
+	background: #91bf6e;
+}
+
+.btn.btn-success:hover {
+	border-radius: 0%;
+}
+
+.white_background a:visited.btn.btn-primary  {
+	color: #efafcf;
+}
+
+.white_background a:hover.btn.btn-primary  {
+	color: #fff;
+}
+
+p.references {
+	padding-left: 2em;
+    text-indent:-2em;
+}
+
+/*Search*/
+div#gsc-iw-id1.gsc-input-box {
+	height: 2.5em;
+}
+
+.cse .gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2 {
+width: auto !important;
+height: auto !important;
+border-color: #474747;
+background-color: #474747;
+background-image: none;
+filter: none;
+
+a.gs-title {
+	padding-left: -1em;
+}
